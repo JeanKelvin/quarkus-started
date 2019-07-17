@@ -1,19 +1,35 @@
-**/target
-**/classes
-**/out
-**/logs
-**/pids
-**/dumps
-**.log
-########## Project Files ##########
-**default-folders.properties
-########## InteliJ IDEA ##########
-*.iml
-.idea
-########## Eclipse IDEA ##########
-.settings
-.classpath
+# Eclipse
 .project
-.metadata
-########## MAC OS ##########
-**.DS_Store
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
